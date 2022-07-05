@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "kafka-examples"
+version = "0.1.0"
+description = ""
+authors = ["Gavin Lin <gavinjwl@amazon.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+boto3 = "^1.24.22"
+kafka-python = "^2.0.2"
+pyspark = "3.2.0"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+pylint = "^2.14.4"
+Faker = "^13.14.0"
+ipykernel = "^6.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
